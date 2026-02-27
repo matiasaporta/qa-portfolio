@@ -1,0 +1,77 @@
+QA REPORT- Landing Page / UX- Sample report
+(anonymized).
+QA: Matías Aporta
+Producto: Landing Page – SaaS / Startup
+Objetivo: Captación de leads
+Rol: QA externo
+Scope: UX / Usabilidad / Funcional básico
+Dispositivo: Desktop + Mobile
+Ambiente: Producción
+REPORT
+Project: SaaS Landing Page
+Scope: UX & Functional QA
+Tester: QA Freelance
+Date: 08/06/2025
+Test Scope
+• Navegación general
+• Call To Action (CTA)
+• Formularios
+• Responsive design
+• Mensajes y feedback al usuario
+Environment
+• Browser: Chrome / Safari
+• Devices: Desktop / Mobile• Issue #1 — CTA principal pierde visibilidad al hacer scroll
+Severity: High
+Type: UX / Conversion
+Description:
+El botón principal de llamada a la acción desaparece completamente al hacer scroll,
+obligando al usuario a volver arriba para convertir.
+Steps to Reproduce:
+1. Ingresar a la landing
+2. Hacer scroll hasta la sección media
+3. Intentar encontrar el CTA
+Expected Result:
+El CTA debería mantenerse visible o repetirse estratégicamente.
+Actual Result:
+El CTA solo aparece en el hero inicial.
+Impact:
+Reducción directa de conversiones.
+• Issue #2 — Formulario no valida campos antes de enviar
+Severity: High
+Type: Functional / UX
+Description:
+El formulario permite enviarse con campos obligatorios vacíos.
+Steps to Reproduce:
+1. Ir al formulario
+2. Dejar campos vacíos
+3. Click en “Enviar”
+Expected Result:
+Validación inmediata y mensajes claros por campo.
+Actual Result:
+Formulario se envía sin feedback.Impact:
+Leads inválidos y mala experiencia.
+• Issue #3 — Mensaje de error genérico y poco claro
+Severity: Medium
+Type: UX
+Description:
+Ante un error, el sistema muestra un mensaje genérico que no orienta al usuario.
+Expected Result:
+Mensajes específicos por campo.
+Actual Result:
+Mensaje general: “Ocurrió un error”.
+Impact:
+Frustración y abandono.
+• Issue #4 — Problemas de legibilidad en mobile
+Severity: Medium
+Type: Responsive / UX
+Description:
+Texto demasiado pequeño y botones muy juntos en versión mobile.
+Impact:
+Dificulta lectura e interacción en dispositivos móviles.
+QA Summary
+• Issues críticos de conversión: 2
+• Issues de UX: 2
+Conclusión:
+La landing presenta problemas de usabilidad y validación que afectan directamente la
+conversión y la calidad de los leads. Se recomienda corregir estos puntos antes de
+campañas de adquisición.
